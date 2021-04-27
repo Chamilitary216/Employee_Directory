@@ -6,7 +6,7 @@ const Header = () => {
         <header>
             <h1 className = "text-center"> Employee Directory</h1>
 
-            <p className ="text-center"> Type name in Search Field.</p>
+            <p className ="text-center"> Company directory search.</p>
         </header>
     );
  };

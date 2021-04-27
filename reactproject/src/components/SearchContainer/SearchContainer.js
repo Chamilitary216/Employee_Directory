@@ -13,7 +13,7 @@ const SearchBar = (props) => {
                     name = "search"
                     onChange = {props.handleInputChange}
                     type = "search"
-                    placeholder = "Employee Directory Search" />
+                    placeholder = "Employee Search" />
 
             </form>
          </nav>

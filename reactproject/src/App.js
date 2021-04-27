@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/Header";
-import EmployeeContainer from "./components/EmployeeContainer";
+import EmployeesContainer from "./components/Container/EmployeesContainer";
 
 const App = () => {
     return (
         <>
         <Header/>
-        <EmployeeContainer/>
+        <EmployeesContainer/>
         </>
     );
 };

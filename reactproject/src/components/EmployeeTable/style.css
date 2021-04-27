@@ -1,0 +1,40 @@
+/* Show pointer to indicate column header is clickable */
+tablehead th span{
+    cursor: pointer;
+}
+
+/* Following classes allows for table to be scrollable */
+tablebody {
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 65vh;
+}
+
+tablehead,
+tablebody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.email {
+    overflow-x: auto;
+}
+
+th {
+    font-size: 15px;
+    
+}
+
+th:hover{
+    font-size: 22px;
+    transition: 400ms;
+   
+}
+
+img {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
