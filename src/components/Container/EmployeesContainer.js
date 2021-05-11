@@ -20,7 +20,7 @@ class EmployeesContainer extends Component {
     };
   }
 
-  // When this component mounts, load random users as employees from https://randomuser.me/
+  // Will load random user profiles from https://randomuser.me/
   componentDidMount() {
     API.getEmployees()
       .then((res) =>
@@ -32,7 +32,7 @@ class EmployeesContainer extends Component {
       .catch((err) => console.log(err));
   }
 
-  // Update search state to filter by employee name
+  // Filter employees by name
   handleInputChange = (event) => {
     const value = event.target.value;
     this.setState({ search: value });
@@ -43,8 +43,7 @@ class EmployeesContainer extends Component {
     event.preventDefault();
   };
 
-  // Sort with the key of specified object.
-  // If key has children, sort by primary child and optionally a secondary child. i.e. sort by last name, then first.
+ 
   sortBy = (key, primary = 0, secondary = 0) => {
     let sortedEmployees = this.state.filteredEmployees;
     if (this.state.sortDirections[key]) {
