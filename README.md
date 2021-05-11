@@ -8,6 +8,8 @@
     
   ## Description:
   With this web app you can search your company employee directory.  You can search by first or last name.  If multiple results populate you can click on NAME, PHONE, EMAIL to ascend or decend alphabeticaly.
+  
+  Link to Heroku Deployed app: https://employeereact123.herokuapp.com/
 
   ### Installation:
   Open the terminal and run 'npm start'.  Install any required packages if needed with 'npm install'
